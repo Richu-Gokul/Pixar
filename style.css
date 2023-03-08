@@ -1,0 +1,87 @@
+@import url("https://fonts.cdnfonts.com/css/futura-pt");
+@import url("https://fonts.cdnfonts.com/css/brandon-grotesque-regular");
+
+body {
+  margin: 0;
+  padding: 0;
+}
+header {
+  display: flex;
+  flex-direction: row;
+}
+.logo {
+  padding: 37px 0px 30px 139px;
+  width: 30%;
+}
+.options {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 35px;
+  padding: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+  word-spacing: 10px;
+  letter-spacing: 2px;
+  font-size: 14px;
+}
+.logo_two {
+  position: relative;
+  bottom: 28rem;
+  left: 30rem;
+}
+.sec_two {
+  position: relative;
+  top: -35px;
+}
+.content_one {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0px 75px 0px 75px;
+}
+.content_two {
+  display: flex;
+  justify-content: space-evenly;
+  letter-spacing: 3px;
+  padding-top: 15px;
+  gap: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.footer_logo {
+  padding-top: 10rem;
+  text-align: center;
+  word-spacing: 20px;
+}
+.terms {
+  text-align: center;
+  padding-top: 35px;
+}
+.terms p a {
+  text-decoration: none;
+  line-height: 2px;
+  border-bottom: 1px solid black;
+  color: #1d1d1d;
+  font-weight: 100;
+  letter-spacing: 3px;
+  word-spacing: 3px;
+  font-family: "brandon-grotesque";
+}
+.terms button {
+  margin-top: 20px;
+  font-size: medium;
+  padding: 15px 25px;
+  color: #68b631;
+  background-color: #dcdcdc;
+  border: 1px solid #68b631;
+}
+.terms button:hover {
+  background-color: #68b631;
+  color: #ffff;
+}
+.cp_right {
+  letter-spacing: 3px;
+  word-spacing: 3px;
+}
+
+footer {
+  padding-bottom: 30px;
+}
